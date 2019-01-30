@@ -74,7 +74,7 @@ public class NavigationView extends View {
                 break;
 
             default:
-                setBackgroundColor(Color.parseColor("#EEE5DE"));
+//                setBackgroundColor(Color.parseColor("#EEE5DE"));
                 if (c >= 0 && c < mDate.length && c != oldPosition) {
                     if (mOnTouchItemListener != null) {
                         mOnTouchItemListener.onTouch(mDate[c]);
